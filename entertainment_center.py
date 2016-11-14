@@ -1,6 +1,6 @@
 import fresh_tomatoes
 import media
-
+""" This file provides movie data. """
 wonder_woman = media.Movie("Wonder Woman",
                         "An Amazonian princess leaves her island home to explore the"
                         "world and, in doing so, becomes one of the world's greatest heroes.",
@@ -46,5 +46,5 @@ blind = media.Movie("My Blind Brother",
                         "https://www.youtube.com/watch?v=5jCQBCfJGhY")
 
 movies = [wonder_woman, valerian, guardians, power, run, justice, blind]
-fresh_tomatoes.open_movies_page(movies)
+fresh_tomatoes.open_movies_page(movies) """ Pass the movies array to the method """
 
